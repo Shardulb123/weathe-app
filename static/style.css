@@ -1,0 +1,92 @@
+body{
+    /* background-color: black; */
+    color: white;
+    margin-left: 15px;
+    font-size: 10px;
+    font-family: 'Open Sans', sans-serif;
+    background-image: url(https://cdn.wallpapersafari.com/33/61/lXa9mC.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#h11{
+    margin-top: 0px;
+    margin-left: 30px;
+    font-weight: 300;
+}
+
+#img1{
+    height: 35px;
+    width: 35px;
+}
+
+#img2{
+    height: 55px;
+    width: 55px;
+    float: right;
+    background-color: rgb(50, 205, 146);
+    position: relative;
+}
+
+#firstparam{
+    margin-top: 20px;
+    margin-left: 50px;
+    display: flex;
+}
+
+#secondparam{
+    font-size: xx-large;
+    margin-top: 80px;
+    margin-left: 140px;
+    padding-right: 150px;
+    color: thistle;
+    /* float: left; */
+}
+
+input{
+    width: 300px;
+    font-size: xx-large;
+    background: transparent;
+    background-color: gainsboro;
+    border: darkblue(2px);
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+#name{
+    font-weight: 1200;
+    font-size: 100px;
+}
+
+#thirdparam{
+    background: transparent;
+    
+    margin-left: 100px;
+    
+    /* height: px; */
+    /* width: 50px;  */
+}
+
+
+.middlelayer{
+    display: flex;
+    justify-content: space-evenly;
+    /* align-items: center; */
+}
+
+#card{
+    float: right;
+    height: 400px;
+    /* width: 800px; */
+  
+    /* margin-left: 100px; */
+   
+    padding: 50px;
+    padding-right: 100px;
+    background-color: rgba(255, 255, 255, 0.3);
+    backdrop-filter: blur(4px) saturate(100%) contrast(45%) brightness(130%);
+    background: radial-gradient(to bottom left, #ff9797, #f98a05);
+    border-radius: 30px;
+
+   }
+   
